@@ -1,9 +1,10 @@
 import 'package:doctors_app/core/routing/routes.dart';
 import 'package:doctors_app/features/login/ui/screens/login_screen.dart';
-import 'package:doctors_app/features/onBoarding/onBoarding_screen.dart';
+import 'package:doctors_app/features/onBoarding/ui/screens/onBoarding_screen.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
+  final arguments = 'arguments';
   Route? onGenerateRoute(RouteSettings routeSettings) {
     switch (routeSettings.name) {
       case Routes.onBoardingScreen:

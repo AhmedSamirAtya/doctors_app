@@ -36,7 +36,6 @@ dependencies:
   flutter_screenutil: ^5.9.0
 
 
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
