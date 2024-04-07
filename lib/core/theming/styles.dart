@@ -8,13 +8,33 @@ class TextStyleManager {
       color: ColorManager.mainBlue,
       fontSize: 20.sp,
       fontWeight: FontWeightsHelper.bold);
+  static TextStyle font14MainBlueRegular = TextStyle(
+      color: ColorManager.mainBlue,
+      fontSize: 14.sp,
+      fontWeight: FontWeightsHelper.regular);
 
-  static TextStyle font16Back500W = TextStyle(
-      color: Colors.black45, fontSize: 16.sp, fontWeight: FontWeightsHelper.medium);
+  static TextStyle font16BackMedium = TextStyle(
+      color: Colors.black45,
+      fontSize: 16.sp,
+      fontWeight: FontWeightsHelper.medium);
 
-  static TextStyle font16White500W = TextStyle(
-      color: Colors.white, fontSize: 16.sp, fontWeight: FontWeightsHelper.medium);
+  static TextStyle font14DarkBlueMedium = TextStyle(
+      color: ColorManager.darkBlue,
+      fontSize: 14.sp,
+      fontWeight: FontWeightsHelper.medium);
 
-  static TextStyle font12Gray300W = TextStyle(
-      color: ColorManager.gray, fontSize: 12.sp, fontWeight: FontWeightsHelper.light);
+  static TextStyle font16WhiteMedium = TextStyle(
+      color: Colors.white,
+      fontSize: 16.sp,
+      fontWeight: FontWeightsHelper.medium);
+
+  static TextStyle font14GrayRegular = TextStyle(
+      color: ColorManager.gray,
+      fontSize: 14.sp,
+      fontWeight: FontWeightsHelper.regular);
+
+  static TextStyle font12GrayLight = TextStyle(
+      color: ColorManager.gray,
+      fontSize: 12.sp,
+      fontWeight: FontWeightsHelper.light);
 }
